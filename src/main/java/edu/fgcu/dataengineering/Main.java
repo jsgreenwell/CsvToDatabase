@@ -27,5 +27,8 @@ public class Main {
         for (var element : authors) {
             System.out.println(element.getName());
         }
+
+        BookStoreDB bookStoreDB = new BookStoreDB();
+        bookStoreDB.connect();
     }
 }
